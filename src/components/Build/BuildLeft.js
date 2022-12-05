@@ -4,7 +4,7 @@ function BuildLeft() {
   return (
     <div className="buildLeft-cont">
       <div className="buildLeftTitle">
-        <span className="buildspec">Build</span> Your Dream Team
+        <span className="buildspec">Build</span> Your Dream Team!
       </div>
 
       <div className="buildLeft-desc">
