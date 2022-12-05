@@ -11,7 +11,7 @@ function TT() {
             <a href="/" className="brand-name">
               <img className="nav-logo" src={navlogo} />
             </a>
-            <button className="hamburger" onClick={() => {}}></button>
+
             <div className={"navigation-menu"}>
               <ul>
                 <li>

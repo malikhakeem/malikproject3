@@ -114,8 +114,8 @@ input[type=checkbox] {
     z-index: 99;
     height: 100%;
     width: 100%;
-    top: 22px;
-    right: 15px;
+    top: 30px;
+    right: 25px;
     height: 22px;
     width: 22px;
 }
@@ -126,7 +126,7 @@ input[type=checkbox] {
     position: absolute;
     height: 3px;
     width: 100%;
-    background-color: #84A4FC;
+    background-color: #2E2E2E;
 }
 
 .horizontal {
@@ -205,7 +205,7 @@ input[type=checkbox]:checked~.sidebarIconToggle>.diagonal.part-2 {
 
 .navigation-menu ul {
     display: flex;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 500;
     line-height: 21.09px;
     color: #2E2E2E;
@@ -215,7 +215,7 @@ input[type=checkbox]:checked~.sidebarIconToggle>.diagonal.part-2 {
 .gh ul {
     display: flex;
     padding: 0;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 700;
     line-height: 21.09px;
     font-family: 'Roboto', sans-serif;
@@ -266,7 +266,7 @@ input[type=checkbox]:checked~.sidebarIconToggle>.diagonal.part-2 {
     background-color: #2642af;
 }
 
-@media screen and (max-width: 920px) {
+@media screen and (max-width: 960px) {
     .hamburger {
         display: block;
     }
@@ -282,7 +282,7 @@ input[type=checkbox]:checked~.sidebarIconToggle>.diagonal.part-2 {
     }
 }
 
-@media screen and (max-width: 920px) {
+@media screen and (max-width: 960px) {
     .navigation-menu ul {
         display: none;
     }
@@ -294,7 +294,7 @@ input[type=checkbox]:checked~.sidebarIconToggle>.diagonal.part-2 {
     }
 }
 
-@media screen and (max-width: 920px) {
+@media screen and (max-width: 960px) {
     .navigation-menu ul {
         position: absolute;
         top: 80px;
@@ -341,7 +341,7 @@ input[type=checkbox]:checked~.sidebarIconToggle>.diagonal.part-2 {
     }
 }
 
-@media screen and (max-width: 920px) {
+@media screen and (max-width: 960px) {
     .navigation-menu ul {
         /* previous styles */
         display: none;
@@ -352,7 +352,7 @@ input[type=checkbox]:checked~.sidebarIconToggle>.diagonal.part-2 {
     }
 }
 
-@media screen and (max-width: 920px) {
+@media screen and (max-width: 960px) {
     .navigation-menu.expanded ul {
         display: block;
     }
