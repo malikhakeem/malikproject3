@@ -1,40 +1,68 @@
 @import url('https://fonts.googleapis.com/css?family=Varela+Round');
-
-/* html,
+html,
 body {
     overflow-x: hidden;
     height: 100%;
-} */
+}
+
+.openSidebarMenu {
+    display: none;
+}
+
+body {
+    background: #fff;
+    padding: 0;
+    margin: 0;
+    font-family: 'Varela Round', sans-serif;
+}
 
 .header {
     display: block;
-    margin: 0px 0px;
     width: 100%;
-    /* height: 700px; */
-    /* max-width: 100%; */
+    max-width: 100%;
     box-shadow: none;
-    background-color: #FC466B;
-    position: fixed;
-    height: 60px !important;
+    background-color: white;
+    /* position: fixed; */
+    height: 133px !important;
     overflow: hidden;
     z-index: 10;
 }
 
 .main {
-    margin: 0 auto;
+    /* margin: 0px auto; */
     display: block;
+    height: 100%;
+    /* margin-top: 60px; */
+}
+
+.mainInner {
+    display: table;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+
+.mainInner div {
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 3em;
+    font-weight: bold;
+    letter-spacing: 1.25px;
 }
 
 #sidebarMenu {
+    display: none;
+    z-index: 1;
     height: 100%;
     position: fixed;
-    z-index: 1;
-    left: 72%;
+    right: 0;
     width: 250px;
-    margin-top: 40px;
-    transform: translateX(550px);
+    margin-top: 100px;
+    transform: translateX(250px);
     transition: transform 250ms ease-in-out;
-    background: black;
+    background: #84A4FC;
+    /* background: #FFAE1B; */
+    opacity: 0.95;
 }
 
 .sidebarMenuInner {
@@ -45,7 +73,7 @@ body {
 
 .sidebarMenuInner li {
     list-style: none;
-    color: #FFAE1B;
+    color: #fff;
     text-transform: uppercase;
     font-weight: bold;
     padding: 20px;
@@ -53,8 +81,14 @@ body {
     border-bottom: 1px solid rgba(255, 255, 255, 0.10);
 }
 
+.sidebarMenuInner li span {
+    display: block;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.50);
+}
+
 .sidebarMenuInner li a {
-    color: #FFAE1B;
+    color: #fff;
     text-transform: uppercase;
     font-weight: bold;
     cursor: pointer;
@@ -72,20 +106,18 @@ input[type=checkbox] {
 }
 
 .sidebarIconToggle {
+    display: none;
     transition: all 0.3s;
     box-sizing: border-box;
     cursor: pointer;
     position: absolute;
-    position: fixed;
     z-index: 99;
     height: 100%;
     width: 100%;
     top: 22px;
-    left: 90%;
+    right: 15px;
     height: 22px;
     width: 22px;
-    border: 3px solid #FFAE1B;
-    ;
 }
 
 .spinner {
@@ -94,8 +126,7 @@ input[type=checkbox] {
     position: absolute;
     height: 3px;
     width: 100%;
-    position: fixed;
-    background-color: #FFAE1B;
+    background-color: #84A4FC;
 }
 
 .horizontal {
@@ -141,25 +172,17 @@ input[type=checkbox]:checked~.sidebarIconToggle>.diagonal.part-2 {
     margin-top: -9px;
 }
 
-.oio {
-    display: none;
-    /* display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    justify-content: flex-end; */
-}
 
-
-/* second work */
+/* second part */
 
 .navigation {
-    height: 60px;
+    height: 133px;
     /* width: 100%; */
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: relative;
-    padding: 0.5rem 0rem;
+    /* position: relative; */
+    padding: 0px 97px 0px 65px;
     background-color: #fff;
     color: black;
 }
@@ -182,7 +205,6 @@ input[type=checkbox]:checked~.sidebarIconToggle>.diagonal.part-2 {
 
 .navigation-menu ul {
     display: flex;
-    padding: 0;
     font-size: 16px;
     font-weight: 500;
     line-height: 21.09px;
@@ -244,22 +266,35 @@ input[type=checkbox]:checked~.sidebarIconToggle>.diagonal.part-2 {
     background-color: #2642af;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 920px) {
     .hamburger {
         display: block;
     }
+    .sidebarIconToggle {
+        display: block;
+    }
+    .header {
+        position: fixed;
+        height: 100px !important;
+    }
+    .navigation {
+        height: 100px;
+    }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 920px) {
     .navigation-menu ul {
         display: none;
+    }
+    #sidebarMenu {
+        display: block;
     }
     .gh ul {
         display: none;
     }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 920px) {
     .navigation-menu ul {
         position: absolute;
         top: 80px;
@@ -306,7 +341,7 @@ input[type=checkbox]:checked~.sidebarIconToggle>.diagonal.part-2 {
     }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 920px) {
     .navigation-menu ul {
         /* previous styles */
         display: none;
@@ -317,22 +352,30 @@ input[type=checkbox]:checked~.sidebarIconToggle>.diagonal.part-2 {
     }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 920px) {
     .navigation-menu.expanded ul {
         display: block;
-    }
-    .oio {
-        display: block;
-        /* display: flex;
-        flex-direction: column;
-        align-items: flex-end;
-        justify-content: flex-end; */
     }
     /* .gh ul {
         display: block;
     } */
 }
 
-.oio {
-    background: blue;
+@media screen and (max-width: 500px) {
+    #sidebarMenu {
+        display: block;
+        z-index: 1;
+        height: 100%;
+        position: fixed;
+        right: 0;
+        width: 150px;
+        margin-top: 100px;
+        transform: translateX(250px);
+        transition: transform 250ms ease-in-out;
+        background: #84A4FC;
+    }
+    .nav-logo {
+        width: 176px;
+        height: 55px;
+    }
 }

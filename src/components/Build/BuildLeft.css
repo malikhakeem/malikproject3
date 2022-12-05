@@ -137,6 +137,9 @@ input[type=text]:focus {
 }
 
 @media only screen and (max-width: 500px) {
+    .buildLeftForm {
+        width: 100%;
+    }
     .buildLeft-cont {
         display: flex;
         flex-direction: column;

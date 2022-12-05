@@ -59,6 +59,7 @@
 
 .talent-container {
     display: flex;
+    padding: 0px 15px 0px 15px;
     justify-content: center;
     width: 100%;
     gap: 150px;

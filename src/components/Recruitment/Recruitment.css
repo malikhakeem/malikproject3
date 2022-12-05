@@ -51,6 +51,7 @@
 }
 
 .recruit-container {
+    padding: 0px 15px 0px 15px;
     display: flex;
     justify-content: center;
     width: 100%;

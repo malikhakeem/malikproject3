@@ -9,13 +9,15 @@ import BuildLeft from "./components/Build/BuildLeft";
 import BuildRight from "./components/Build/BuildRight";
 import Footer from "./components/Footer/Footer";
 import Absolutes from "./components/Absolutes/Absolutes";
+import TT from "./components/tt/TT";
 import Footer2 from "./components/Footer/Footer2";
 function App() {
   return (
     <div className="App">
-      <div className="NavbarContainer">
-        <Navbar />
+      <div className="ttt">
+        <TT />
       </div>
+      {/* <div className="NavbarContainer"><Navbar /></div> */}
 
       <div className="HomeContainer">
         <Home />

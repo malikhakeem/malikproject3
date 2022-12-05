@@ -37,6 +37,7 @@
 
 .home-tit {
     width: 600px;
+    padding: 12px;
 }
 
 .home-spec {
@@ -45,6 +46,7 @@
 
 .home-desc {
     width: 600px;
+    padding: 12px;
 }
 
 .home-desc-cont {
@@ -85,6 +87,12 @@
     }
 }
 
+@media screen and (max-width: 920px) {
+    .homeFlex {
+        height: 546px;
+    }
+}
+
 @media only screen and (max-width: 500px) {
     /* .home-desc-cont {
         display: flex;
@@ -118,5 +126,8 @@
     }
     .home-desc {
         width: 300px;
+    }
+    .homeFlex {
+        height: 546px;
     }
 }
