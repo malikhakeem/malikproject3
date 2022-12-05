@@ -1,0 +1,116 @@
+.job-talent-tit-cont {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 37px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.job-talent-desc-width {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 27px;
+    width: 340px;
+}
+
+.job-talent-desc-cont {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.sign-ups-cont a {
+    text-decoration: none;
+}
+
+.right-sign-ups a {
+    text-decoration: none;
+}
+
+.arrow {
+    width: 20px;
+    height: 20px;
+}
+
+.sign-ups-cont {
+    display: flex;
+    padding-bottom: 10px;
+}
+
+.sign-ups {
+    padding-right: 10px;
+}
+
+.sign-ups a {
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    padding-right: 10px;
+}
+
+.images2 {
+    width: 311.67px;
+    height: 380px;
+}
+
+.ima2 {
+    width: 311.67px;
+    height: 380px;
+}
+
+.job-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 150px;
+}
+
+.job-descs {
+    /* width: 50%; */
+    /* width: 35%; */
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end; */
+}
+
+.blo {
+    /* width: 50%; */
+}
+
+.job-imgs {
+    /* display: flex;
+    align-items: flex-end; */
+    /* padding-right: 60px; */
+}
+
+.klo {
+    width: 50%;
+    display: flex;
+    align-items: flex-end;
+}
+
+@media only screen and (max-width: 850px) {
+    .job-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        gap: 150px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .job-talent-tit-cont {
+        font-size: 25px;
+    }
+    .job-container {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        gap: 124px;
+    }
+    .job-talent-desc-width {
+        font-size: 13px;
+        width: 320px;
+    }
+}

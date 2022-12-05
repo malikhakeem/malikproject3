@@ -1,0 +1,109 @@
+.home {
+    /* height: 350px; */
+}
+
+.homeFlex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 446px;
+    clip-path: polygon(0 0, 100% 0, 100% 91%, 0% 100%);
+    /* background-image: linear-gradient(#1D293F 47.41%, rgba(0, 153, 214, 0.81) 100%); */
+    background: linear-gradient(261.8deg, #1D293F 59.05%, rgba(0, 153, 214, 0.81) 92.75%);
+}
+
+.home-img-cont {
+    position: sticky;
+}
+
+.home-img {
+    width: 337.56px;
+    height: 259px;
+    position: absolute;
+    top: 0px;
+    right: 45px;
+}
+
+.home-title-cont {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 65px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+}
+
+.home-tit {
+    width: 600px;
+}
+
+.home-spec {
+    color: #FFAE1B;
+}
+
+.home-desc-cont {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 500px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+@media only screen and (max-width: 1300px) {
+    .home-container {
+        /* background: blue; */
+    }
+    .home-img {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 560px) {
+    .homeFlex {
+        /* background: red; */
+    }
+    /* .home-tit {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    } */
+    .home-title-cont {
+        font-size: 40px;
+    }
+    .home-desc-cont {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    /* .home-desc-cont {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+    } */
+    .homeFlex {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        height: 446px;
+        clip-path: polygon(0 0, 100% 0, 100% 89%, 0% 100%);
+        background-image: linear-gradient(#1D293F 47.41%, rgba(0, 153, 214, 0.81) 100%);
+    }
+    .home-title-cont {
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 55px;
+        color: #FFFFFF;
+    }
+    .home-desc-cont {
+        display: flex;
+        flex-direction: column;
+        text-align: start;
+        font-size: 13px;
+        line-height: 24px;
+    }
+}

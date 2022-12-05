@@ -1,0 +1,217 @@
+.footer-container {
+    height: 470.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.in {
+    width: 181px;
+    height: 60px;
+}
+
+.out {}
+
+.main-footer {
+    display: flex;
+    width: 100%;
+    gap: 211px;
+}
+
+.footer-container {}
+
+.rightFooter {
+    display: flex;
+    width: 60%;
+}
+
+.leftFooter {
+    width: 40%;
+    align-items: flex-end;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.leftFooter-text {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    line-height: 28px;
+    color: #8C97AC;
+    width: 250px;
+    padding-bottom: 28px;
+}
+
+.lftbtn {
+    font-size: 13px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    line-height: 20px;
+    width: 125px;
+    height: 45px;
+    color: #FFFFFF;
+    background: #00B6FF;
+    border: none;
+    border-radius: 10px;
+}
+
+.righttit {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #8C97AC;
+    padding-bottom: 16px;
+}
+
+.right3tit {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #8C97AC;
+    padding-bottom: 21px;
+}
+
+.right1-links {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 42px;
+    color: #E9F7FE;
+}
+
+.right3-links {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #E9F7FE;
+}
+
+.right1 {
+    /* width: 157px; */
+    padding-right: 31px;
+}
+
+.right2 {
+    padding-right: 33px;
+    /* width: 157px; */
+}
+
+.right3-link {
+    width: 250px;
+    /* width: 255px; */
+}
+
+@media only screen and (max-width: 1100px) {
+    .footer-container {
+        height: auto;
+    }
+    .main-footer {
+        display: flex;
+        padding-top: 127px;
+        padding-bottom: 115px;
+        width: 100%;
+        gap: 50px;
+    }
+    .rightFooter {
+        display: flex;
+        width: 60%;
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    .leftFooter {
+        width: 40%;
+        align-items: flex-end;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .right1 {
+        padding-bottom: 35px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .footer-container {
+        height: auto;
+    }
+    .main-footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 127px;
+        width: 100%;
+        gap: 0px;
+    }
+    .rightFooter {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+    }
+    .leftFooter {
+        width: 50%;
+        align-items: center;
+        text-align: center;
+        display: flex;
+        padding-bottom: 50px;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .right1 {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-right: 0px;
+        padding-bottom: 40px;
+    }
+    .right2 {
+        padding-right: 0px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 40px;
+    }
+    .right3 {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .leftFooter-text {
+        font-size: 13px;
+        padding-bottom: 25px;
+    }
+    .lftbtn {
+        font-size: 10px;
+        width: 123px;
+        height: 42px;
+    }
+    .righttit {
+        font-family: 'Roboto', sans-serif;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 32px;
+        color: #8C97AC;
+        padding-bottom: 16px;
+    }
+    .right3tit {
+        font-family: 'Roboto', sans-serif;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 32px;
+        color: #8C97AC;
+        padding-bottom: 18px;
+    }
+    .right1-links {
+        font-size: 13px;
+    }
+    .right3-links {
+        font-size: 13px;
+    }
+}

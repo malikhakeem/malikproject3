@@ -1,38 +1,108 @@
-.App {
-  text-align: center;
+* {
+    padding: 0px;
+    margin: 0px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:wght@500;700&family=Roboto:wght@500&family=Tajawal:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:wght@700&family=Roboto:wght@500&family=Tajawal:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@500&family=Tajawal:wght@500&display=swap');
+.NavbarContainer {
+    padding: 33px 65px 40px 65px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.Home {
+    /* position: relative; */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.Build {
+    display: flex;
+    align-items: center;
+    background: #F4FBFF;
+    justify-content: center;
+    width: 100%;
+    gap: 50px;
+    padding: 130px 0px 76px 0px;
+    margin-bottom: 50px;
 }
 
-.App-link {
-  color: #61dafb;
+.BuildRight {
+    /* padding-left: 98px; */
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.BuildLeft {
+    width: 50%;
+    display: flex;
+    /* padding-right: 60px; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    /* padding-left: 98px; */
+}
+
+.Footer-Container {
+    background: #1D293F;
+}
+
+.Button-Container {
+    padding: 40px 0px 143px 0px;
+}
+
+.Talent {
+    padding-bottom: 159px;
+}
+
+.JubHunting {
+    padding-bottom: 159px;
+}
+
+.Recruitment {
+    padding-bottom: 77px;
+}
+
+@media only screen and (max-width: 1055px) {
+    .Build {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* background: red; */
+        justify-content: center;
+        width: 100%;
+        gap: 50px;
+        padding: 130px 0px 76px 0px;
+        margin-bottom: 50px;
+    }
+    .BuildRight {
+        /* padding-left: 98px; */
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .BuildLeft {
+        width: 50%;
+        display: flex;
+        /* padding-right: 60px; */
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* padding-left: 98px; */
+    }
+}
+
+@media only screen and (max-width: 540px) {
+    .BuildLeft {
+        width: 50%;
+        display: flex;
+        /* padding-right: 60px; */
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* padding-left: 98px; */
+    }
 }

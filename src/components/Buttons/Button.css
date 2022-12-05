@@ -1,0 +1,47 @@
+.button-subcont {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    justify-content: center;
+}
+
+.button1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #E9FBFF;
+    border: 2px solid #4196B8;
+    color: #4196B8;
+    width: 149px;
+    height: 47px;
+    border-radius: 18px;
+    margin-right: 20px;
+}
+
+.button2 {
+    border: 2px solid #AFAFAF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #949494;
+    background: #EDEDED;
+    width: 187px;
+    height: 47px;
+    border-radius: 18px;
+}
+
+@media only screen and (max-width: 500px) {
+    .button-subcont {
+        font-size: 13px;
+    }
+    .button1 {
+        width: 144px;
+        height: 42px;
+    }
+    .button2 {
+        width: 144px;
+        height: 42px;
+    }
+}

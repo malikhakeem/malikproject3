@@ -1,0 +1,205 @@
+.buildLeftTitle {
+    font-family: 'Poppins', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 46.8px;
+    padding-bottom: 31px;
+}
+
+.buildspec {
+    padding-bottom: 3px;
+    border-bottom: 5px solid #4EB9E3;
+}
+
+.buildLeft-desc {
+    width: 460px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25.6px;
+    padding-bottom: 73px;
+}
+
+.name {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22.4px;
+    padding-bottom: 4px;
+}
+
+.inputs {
+    width: 100%;
+    height: 55px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    /* font-size: 16px; */
+    resize: none;
+}
+
+.name-form {
+    padding-bottom: 20px;
+}
+
+.email-form {
+    padding-bottom: 20px;
+}
+
+.num-form {
+    padding-bottom: 20px;
+}
+
+.comp-form {
+    padding-bottom: 20px;
+}
+
+.message-area {
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    height: 150px;
+    padding: 14px 0px 0px 24px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: white;
+    resize: none;
+}
+
+input[type=text]:focus {
+    border: 1px solid #555;
+}
+
+.buildLeft-btn {
+    width: 40%;
+    height: 40px;
+    font-size: 14px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 700;
+    line-height: 16px;
+    color: #FFFFFF;
+    background: #4EB9E3;
+    border: none;
+    border-radius: 8px;
+}
+
+.buildLeft-btn-cont {
+    padding-top: 19px;
+}
+
+@media only screen and (max-width: 540px) {
+    .buildLeftTitle {
+        line-height: 55.8px;
+    }
+    .buildLeft-cont {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        /* background: blue; */
+    }
+    .inputs {
+        width: 100%;
+        height: 55px;
+        padding: 12px 20px;
+        box-sizing: border-box;
+        border: 2px solid #ccc;
+        border-radius: 10px;
+        /* font-size: 16px; */
+        resize: none;
+    }
+    .message-area {
+        width: 100%;
+        height: 150px;
+        padding: 12px 20px;
+        box-sizing: border-box;
+        border: 2px solid #ccc;
+        border-radius: 4px;
+        background-color: white;
+        resize: none;
+    }
+    .buildLeft-desc {
+        width: 300px;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 25.6px;
+        padding-bottom: 73px;
+    }
+    .buildLeft-btn {
+        width: 40%;
+        font-size: 12px;
+        height: 40px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .buildLeft-cont {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        /* background: blue; */
+    }
+    .buildLeftTitle {
+        font-size: 33px;
+        padding-bottom: 25px;
+    }
+    .inputs {
+        width: 100%;
+        height: 55px;
+        padding: 12px 20px;
+        box-sizing: border-box;
+        border: 2px solid #ccc;
+        border-radius: 10px;
+        font-size: 10px;
+        /* font-size: 16px; */
+        resize: none;
+    }
+    .message-area {
+        width: 100%;
+        font-size: 13px;
+        height: 150px;
+        padding: 12px 20px;
+        box-sizing: border-box;
+        border: 2px solid #ccc;
+        border-radius: 4px;
+        background-color: white;
+        resize: none;
+    }
+    .buildLeft-desc {
+        width: 300px;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 25.6px;
+        padding-bottom: 68px;
+    }
+    .buildspec {
+        padding-bottom: 0px;
+        border-bottom: 5px solid #4EB9E3;
+    }
+    .buildLeft-btn {
+        width: 100%;
+        height: 40px;
+        font-size: 12px;
+    }
+    .name {
+        font-size: 11px;
+        padding-bottom: 4px;
+    }
+    .name-form {
+        padding-bottom: 15px;
+    }
+    .email-form {
+        padding-bottom: 15px;
+    }
+    .num-form {
+        padding-bottom: 15px;
+    }
+    .comp-form {
+        padding-bottom: 15px;
+    }
+}
