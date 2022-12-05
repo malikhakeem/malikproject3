@@ -43,12 +43,20 @@
     color: #FFAE1B;
 }
 
+.home-desc {
+    width: 600px;
+}
+
 .home-desc-cont {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     font-weight: 500px;
     line-height: 30px;
     color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
 @media only screen and (max-width: 1300px) {
@@ -102,8 +110,13 @@
     .home-desc-cont {
         display: flex;
         flex-direction: column;
-        text-align: start;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
         font-size: 13px;
         line-height: 24px;
+    }
+    .home-desc {
+        width: 300px;
     }
 }

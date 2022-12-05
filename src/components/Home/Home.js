@@ -19,10 +19,8 @@ function Home() {
           <div className="home-desc-cont">
             <div className="home-desc">
               Join a vibrant community of MSPs to forge long-lasting
-              relationships with partners
-            </div>
-            <div className="home-desc">
-              that help you create excellent customer experiences
+              relationships with partners that help you create excellent
+              customer experiences
             </div>
           </div>
         </div>
