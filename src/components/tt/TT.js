@@ -8,9 +8,12 @@ function TT() {
       <div>
         <div class="header">
           <nav className="navigation">
-            <a href="/" className="brand-name">
-              <img className="nav-logo" src={navlogo} />
-            </a>
+            <div className="icon">
+              {" "}
+              <a href="/" className="brand-name">
+                <img className="nav-logo" src={navlogo} />
+              </a>
+            </div>
 
             <div className={"navigation-menu"}>
               <ul>
@@ -21,7 +24,9 @@ function TT() {
                   <a href="#">Programs</a>
                 </li>
                 <li>
-                  <a href="#">Services</a>
+                  <a className="nav-spec" href="#">
+                    Services
+                  </a>
                 </li>
                 <li>
                   <a href="#">Prices</a>
@@ -52,30 +57,27 @@ function TT() {
           <ul class="sidebarMenuInner">
             <li>Post Job</li>
             <li>
-              <a href="https://vanila.io" target="_blank">
+              <a href="#" target="_blank">
                 Programs
               </a>
             </li>
             <li>
-              <a href="https://instagram.com/plavookac" target="_blank">
+              <a href="#" target="_blank">
                 Services
               </a>
             </li>
             <li>
-              <a href="https://twitter.com/plavookac" target="_blank">
+              <a href="#" target="_blank">
                 Prices
               </a>
             </li>
             <li>
-              <a
-                href="https://www.youtube.com/channel/UCDfZM0IK6RBgud8HYGFXAJg"
-                target="_blank"
-              >
+              <a href="#" target="_blank">
                 Login
               </a>
             </li>
             <li>
-              <a href="https://www.linkedin.com/in/plavookac/" target="_blank">
+              <a href="#" target="_blank">
                 Sign Up
               </a>
             </li>
