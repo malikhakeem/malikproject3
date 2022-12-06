@@ -1,17 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Varela+Round');
-
-/* html,
-body {
-    overflow-x: hidden;
-    height: 100%;
-} */
-
 .header {
     display: block;
     margin: 0px 0px;
     width: 100%;
-    /* height: 700px; */
-    /* max-width: 100%; */
     box-shadow: none;
     background-color: #FC466B;
     position: fixed;
@@ -143,10 +134,6 @@ input[type=checkbox]:checked~.sidebarIconToggle>.diagonal.part-2 {
 
 .oio {
     display: none;
-    /* display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    justify-content: flex-end; */
 }
 
 
@@ -174,10 +161,6 @@ input[type=checkbox]:checked~.sidebarIconToggle>.diagonal.part-2 {
     color: black;
     font-size: 1.3rem;
     margin-left: 1rem;
-}
-
-.navigation-menu {
-    /* margin-left: auto; */
 }
 
 .navigation-menu ul {
@@ -212,33 +195,12 @@ input[type=checkbox]:checked~.sidebarIconToggle>.diagonal.part-2 {
 .navigation-menu li a {
     text-decoration: none;
     color: #2E2E2E;
-    /* display: block;
-    width: 100%; */
 }
 
 .gh li a {
     color: #4196B8;
     text-decoration: none;
-    /* display: block;
-    width: 100%; */
 }
-
-
-/* .hamburger {
-    border: 0;
-    height: 40px;
-    width: 40px;
-    padding: 0.5rem;
-    border-radius: 50%;
-    background-color: #283b8b;
-    cursor: pointer;
-    transition: background-color 0.2s ease-in-out;
-    position: absolute;
-    top: 50%;
-    right: 25px;
-    transform: translateY(-50%);
-    display: none;
-} */
 
 .hamburger:hover {
     background-color: #2642af;
@@ -323,14 +285,7 @@ input[type=checkbox]:checked~.sidebarIconToggle>.diagonal.part-2 {
     }
     .oio {
         display: block;
-        /* display: flex;
-        flex-direction: column;
-        align-items: flex-end;
-        justify-content: flex-end; */
     }
-    /* .gh ul {
-        display: block;
-    } */
 }
 
 .oio {

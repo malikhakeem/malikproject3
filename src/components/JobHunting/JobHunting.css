@@ -64,25 +64,6 @@
     gap: 150px;
 }
 
-.job-descs {
-    /* width: 50%; */
-    /* width: 35%; */
-    /* display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-end; */
-}
-
-.blo {
-    /* width: 50%; */
-}
-
-.job-imgs {
-    /* display: flex;
-    align-items: flex-end; */
-    /* padding-right: 60px; */
-}
-
 .klo {
     width: 50%;
     display: flex;

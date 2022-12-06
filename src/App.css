@@ -10,10 +10,6 @@
     padding: 33px 65px 40px 65px;
 }
 
-.Home {
-    /* position: relative; */
-}
-
 .Build {
     display: flex;
     align-items: center;
@@ -26,7 +22,6 @@
 }
 
 .BuildRight {
-    /* padding-left: 98px; */
     width: 50%;
     display: flex;
     flex-direction: column;
@@ -69,7 +64,6 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        /* background: red; */
         justify-content: center;
         width: 100%;
         gap: 50px;
@@ -77,7 +71,6 @@
         margin-bottom: 50px;
     }
     .BuildRight {
-        /* padding-left: 98px; */
         width: 50%;
         display: flex;
         flex-direction: column;
@@ -87,11 +80,9 @@
     .BuildLeft {
         width: 50%;
         display: flex;
-        /* padding-right: 60px; */
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        /* padding-left: 98px; */
     }
 }
 
@@ -99,14 +90,8 @@
     .BuildLeft {
         width: 50%;
         display: flex;
-        /* padding-right: 60px; */
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        /* padding-left: 98px; */
     }
-}
-
-.HomeContainer {
-    /* position: relative; */
 }

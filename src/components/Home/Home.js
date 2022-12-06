@@ -1,6 +1,6 @@
 import React from "react";
 import "./Home.css";
-import Homehero from "../../images/Partner hero image right.png";
+import Homehero from "../../images/Partner hero image right.svg";
 function Home() {
   return (
     <div className="home-container">
