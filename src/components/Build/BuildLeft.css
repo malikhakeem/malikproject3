@@ -95,6 +95,9 @@ input[type=text]:focus {
     .buildLeftTitle {
         line-height: 55.8px;
     }
+    .buildLeftForm {
+        width: 100%;
+    }
     .buildLeft-cont {
         display: flex;
         flex-direction: column;
