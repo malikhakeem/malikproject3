@@ -46,16 +46,27 @@ function BuildRight() {
           <div className="media-flex">
             {" "}
             <div className="media">
-              <img className="med" src={facebook} />
+              <a href="#">
+                {" "}
+                <img className="med" src={facebook} />
+              </a>
+            </div>
+            <a href="#">
+              {" "}
+              <div className="media">
+                <img className="med" src={twitter} />
+              </div>
+            </a>
+            <div className="media">
+              <a href="#">
+                <img className="med" src={link} />
+              </a>
             </div>
             <div className="media">
-              <img className="med" src={twitter} />
-            </div>
-            <div className="media">
-              <img className="med" src={link} />
-            </div>
-            <div className="media">
-              <img className="med" src={instagram} />
+              <a href="#">
+                {" "}
+                <img className="med" src={instagram} />
+              </a>
             </div>
           </div>
         </div>
