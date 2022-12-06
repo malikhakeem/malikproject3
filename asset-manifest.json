@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/malikproject3/static/css/main.57fec50a.css",
-    "main.js": "/malikproject3/static/js/main.94574399.js",
+    "main.js": "/malikproject3/static/js/main.cba9f0f5.js",
     "static/media/IMG (2).png": "/malikproject3/static/media/IMG (2).7ec43a0f373bc0addf1c.png",
     "static/media/IMG (3).png": "/malikproject3/static/media/IMG (3).fc49f5438f77172e6d96.png",
     "static/media/Partner hero image right.png": "/malikproject3/static/media/Partner hero image right.fda3b9acd1dbd1fd4632.png",
@@ -9,10 +9,10 @@
     "static/media/Location.png": "/malikproject3/static/media/Location.da9ef89fcc8085005782.png",
     "index.html": "/malikproject3/index.html",
     "main.57fec50a.css.map": "/malikproject3/static/css/main.57fec50a.css.map",
-    "main.94574399.js.map": "/malikproject3/static/js/main.94574399.js.map"
+    "main.cba9f0f5.js.map": "/malikproject3/static/js/main.cba9f0f5.js.map"
   },
   "entrypoints": [
     "static/css/main.57fec50a.css",
-    "static/js/main.94574399.js"
+    "static/js/main.cba9f0f5.js"
   ]
 }
