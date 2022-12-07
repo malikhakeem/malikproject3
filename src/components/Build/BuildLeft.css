@@ -1,3 +1,7 @@
+*:focus {
+    outline: none;
+}
+
 .buildLeftTitle {
     font-family: 'Poppins', sans-serif;
     font-size: 36px;
@@ -68,10 +72,6 @@
     border-radius: 4px;
     background-color: white;
     resize: none;
-}
-
-input[type=text]:focus {
-    border: 1px solid #555;
 }
 
 .buildLeft-btn {
